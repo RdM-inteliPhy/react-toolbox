@@ -3,6 +3,7 @@
 .csscomb.json
 .*.yml
 .editorconfig
+.idea
 karma.conf.js
 server.js
 tests.webpack.js
