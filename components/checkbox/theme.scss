@@ -73,9 +73,10 @@
     &:after {
       position: absolute;
       top: -.1 * $unit;
-      left: .4 * $unit;
-      width: .7 * $unit;
-      height: 1.2 * $unit;
+      left: .2 * $unit;
+      width: .5 * $unit;
+      height: .9 * $unit;
+      font-size: $font-size-tiny;
       content: "";
       border-color: $color-background;
       border-style: solid;
@@ -107,15 +108,15 @@
 @keyframes checkmark-expand {
   0% {
     top: .9 * $unit;
-    left: .6 * $unit;
+    left: .8 * $unit;
     width: 0;
     height: 0;
   }
 
   100% {
     top: -.1 * $unit;
-    left: .4 * $unit;
-    width: .7 * $unit;
-    height: 1.2 * $unit;
+    left: .2 * $unit;
+    width: .5 * $unit;
+    height: .9 * $unit;
   }
 }
