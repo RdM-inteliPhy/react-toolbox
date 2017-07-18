@@ -44,8 +44,8 @@
     $size: ($input-field-height / 7);
     $border: $size solid transparent;
     position: absolute;
-    top: 50%;
     right: $input-chevron-offset;
+    bottom: $input-chevron-bottom-offset;
     width: 0;
     height: 0;
     pointer-events: none;
