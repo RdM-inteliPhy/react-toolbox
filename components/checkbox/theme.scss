@@ -72,8 +72,8 @@
     border-color: $checkbox-color;
     &:after {
       position: absolute;
-      top: -.1 * $unit;
-      left: .2 * $unit;
+      top: .1 * $unit;
+      left: .4 * $unit;
       width: .5 * $unit;
       height: .9 * $unit;
       font-size: $font-size-tiny;
@@ -108,14 +108,14 @@
 @keyframes checkmark-expand {
   0% {
     top: .9 * $unit;
-    left: .8 * $unit;
+    left: .6 * $unit;
     width: 0;
     height: 0;
   }
 
   100% {
-    top: -.1 * $unit;
-    left: .2 * $unit;
+    top: .1 * $unit;
+    left: .4 * $unit;
     width: .5 * $unit;
     height: .9 * $unit;
   }
