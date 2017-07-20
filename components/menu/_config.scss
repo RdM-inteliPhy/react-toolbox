@@ -6,11 +6,11 @@ $menu-padding: .8 * $unit 0 !default;
 $menu-outline-border-radius: .2 * $unit !default;
 $menu-item-hover-background: $palette-grey-200 !default;
 $menu-item-selected-background: transparent !default;
-$menu-item-icon-font-size: $font-size-normal * $unit !default;
+$menu-item-icon-font-size: $font-size-normal !default;
 $menu-item-icon-size: 1.6 * $menu-item-icon-font-size !default;
-$menu-item-height: $font-size-normal * $unit !default;
+$menu-item-height: $font-size-normal !default;
 $menu-item-padding: 0.8 * $unit !default;
 $menu-item-font-size: $font-size-normal !default;
 $menu-divider-height: (3.2 * $unit) / 4 !default;
-$menu-icon-size: $font-size-big * $unit !default; // ? not used
+$menu-icon-size: $font-size-big !default; // ? not used
 $menu-icon-ripple-duration: 650ms !default;
