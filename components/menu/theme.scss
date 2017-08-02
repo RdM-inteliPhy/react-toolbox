@@ -123,7 +123,7 @@
     opacity: .5;
   }
   &.selected {
-    //font-weight: 500;
+    font-weight: 500;
     color: $color-primary;
     background-color: $menu-item-selected-background;
   }
@@ -134,6 +134,7 @@
   .icon {
     width: $menu-item-icon-size;
     font-size: $menu-item-icon-font-size !important;
+    color: $color-text-secondary;
   }
 }
 
