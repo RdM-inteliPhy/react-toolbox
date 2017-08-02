@@ -126,6 +126,10 @@
     font-weight: 500;
     color: $color-primary;
     background-color: $menu-item-selected-background;
+
+    .icon {
+      color: $color-primary;
+    }
   }
   .ripple {
     color: $color-text-secondary;
