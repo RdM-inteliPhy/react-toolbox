@@ -5,7 +5,7 @@
 
 .tooltip {
   position: absolute;
-  z-index: $z-index-higher;
+  z-index: $z-index-highest;
   display: block;
   max-width: $tooltip-max-width;
   padding: $tooltip-margin;
