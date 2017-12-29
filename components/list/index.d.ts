@@ -153,6 +153,8 @@ export interface ListItemProps extends ReactToolbox.Props {
   caption?: React.ReactChild;
 
   legend?: React.ReactChild;
+
+  selectable?: boolean;
 }
 
 export class ListItem extends React.Component<ListItemProps, {}> { }
