@@ -147,6 +147,10 @@ export interface ListItemProps extends ReactToolbox.Props {
    * In case you want to provide the item as a link, you can pass this property to specify the href.
    */
   to?: string;
+
+  leftIcon?: React.ReactElement<any>;
+
+
 }
 
 export class ListItem extends React.Component<ListItemProps, {}> { }
