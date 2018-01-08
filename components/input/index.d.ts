@@ -136,6 +136,8 @@ export interface InputProps extends ReactToolbox.Props {
   value?: any;
 
   themeNamespace?: string;
+
+  readOnly?: boolean;
 }
 
 export class Input extends React.Component<InputProps, {}> { }
