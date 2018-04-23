@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import CssTransitionGroup from 'react-transition-group/CSSTransitionGroup';
+import {CssTransitionGroup} from 'react-transition-group';
 import { SlideLeft, SlideRight } from '../animations';
 import time from '../utils/time.js';
 import utils from '../utils/utils.js';
