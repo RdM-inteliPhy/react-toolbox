@@ -108,9 +108,9 @@
 .menuItem {
   position: relative;
   display: flex;
-  height: $menu-item-height;
+  //height: $menu-item-height;
   align-items: center;
-  padding: 0 $menu-item-padding;
+  padding: $menu-item-padding;
   overflow: hidden;
   font-size: $menu-item-font-size;
   color: $color-text;
@@ -124,7 +124,12 @@
   }
   &.selected {
     font-weight: 500;
+    color: $color-primary;
     background-color: $menu-item-selected-background;
+
+    .icon {
+      color: $color-primary;
+    }
   }
   .ripple {
     color: $color-text-secondary;
@@ -133,6 +138,7 @@
   .icon {
     width: $menu-item-icon-size;
     font-size: $menu-item-icon-font-size !important;
+    color: $color-text-secondary;
   }
 }
 

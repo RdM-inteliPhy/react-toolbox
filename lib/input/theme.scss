@@ -19,7 +19,7 @@
   width: $input-icon-size;
   height: $input-icon-size;
   font-size: $input-icon-font-size !important;
-  line-height: $input-icon-size !important;
+  //line-height: $input-icon-size !important;
   color: $input-text-label-color;
   text-align: center;
   transition: color $animation-duration $animation-curve-default;
@@ -30,6 +30,7 @@
   width: 100%;
   padding: $input-field-padding 0;
   font-size: $input-field-font-size;
+  line-height: $input-field-font-size;
   color: $color-text;
   background-color: $input-text-background-color;
   border: 0;
@@ -69,7 +70,7 @@
 
 .label {
   position: absolute;
-  top: $input-padding + (1.5 * $input-field-padding);
+  top: $input-padding + (1 * $input-field-padding);
   left: 0;
   font-size: $input-field-font-size;
   line-height: $input-field-font-size;
@@ -85,7 +86,7 @@
 
 .hint {
   position: absolute;
-  top: $input-padding + (1.5 * $input-field-padding);
+  top: $input-padding + (1 * $input-field-padding);
   left: 0;
   font-size: $input-field-font-size;
   line-height: $input-field-font-size;

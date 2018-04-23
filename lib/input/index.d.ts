@@ -134,6 +134,12 @@ export interface InputProps extends ReactToolbox.Props {
    * Current value of the input element.
    */
   value?: any;
+
+  themeNamespace?: string;
+
+  readOnly?: boolean;
+
+  autoFocus?: boolean;
 }
 
 export class Input extends React.Component<InputProps, {}> { }
