@@ -150,6 +150,8 @@ export interface ListItemProps extends ReactToolbox.Props {
 
   leftIcon?: React.ReactChild;
 
+  rightIcon?: React.ReactChild;
+
   caption?: React.ReactChild;
 
   legend?: React.ReactChild;
