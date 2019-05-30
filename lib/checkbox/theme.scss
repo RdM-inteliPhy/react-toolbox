@@ -57,6 +57,7 @@
   position: relative;
   display: inline-block;
   width: $checkbox-size;
+  min-width: $checkbox-size;
   height: $checkbox-size;
   vertical-align: top;
   cursor: pointer;
