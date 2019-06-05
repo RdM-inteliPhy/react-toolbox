@@ -155,7 +155,7 @@ const factory = (FontIcon) => {
       const { children, disabled, error, floating, hint, icon,
               name, label: labelText, maxLength, multiline, required,
               theme, type, value, onKeyPress, rows = 1, ...others} = this.props;
-      const length = maxLength && value ? value.length : 0;
+      const length = maxLength && value ? ('' + value).length : 0;
       const labelClassName = classnames(theme.label, {[theme.fixed]: !floating});
 
       const className = classnames(theme.input, {
